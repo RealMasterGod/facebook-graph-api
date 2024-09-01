@@ -1,0 +1,94 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeWrapper {
+    padding: 30px;
+  width: 70%;
+  min-width: 700px;
+  height: 90%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75) inset;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.userImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logoutBtn {
+    padding: 10px;
+    background-color: rgb(68, 68, 230);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.userPages, .pageInfo {
+    font-size: 28px;
+}
+
+.pages {
+    outline: none;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.cards {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    height: 100%;
+}
+
+.card {
+    height: 100%;
+    width: 23%;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: red
+}
+
+.number {
+    margin-top: 30%;
+    color: blue;
+    text-align: center;
+}
